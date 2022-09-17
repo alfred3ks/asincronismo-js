@@ -104,4 +104,16 @@ Crearemos la estructura de carpetas para organizar nuestro codigo.
 src
 .gitignore/node_modules
 
+6- Callbacks, que son:---
+
+Segun la documentacion de MDN explicacion que es un callback:
+https://developer.mozilla.org/es/docs/Glossary/Callback_function
+
+Función Callback
+Una función de callback es una función que se pasa a otra función como un argumento, que luego se invoca dentro de la función externa para completar algún tipo de rutina o acción.
+
+Vamos a dentro de src crear una carpeta llamada callback
+src/callback/index.js
+
+
 */
