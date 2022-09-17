@@ -134,7 +134,12 @@ https://fakeapi.platzi.com/
 
 Vamos a ver un nuevo archivo dentro de src/callback/challenge1.js
 
+9- Fetch data: ---
 
+Ahora ya en el archivo anterior de challenge1.js hemos preparado nuestra funcion para hacer las peticiones pero aun no la hemos llamado, eso lo haremos en el archivo challenge2.js
 
+Llego el momento de hacer fetch a la data.
+
+Como vemos este es un tipico ejemplo donde encadenamos peticiones y se genera un calback hell, el infierno de los callback.
 
 */
