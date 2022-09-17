@@ -10,9 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/alfred3ks/asincronismo-js.git"
   },
-  "keywords": [
-    "JavaScript"
-  ],
   "author": "Alfredo Sánchez - @alfred3ks",
   "license": "MIT",
   "bugs": {
