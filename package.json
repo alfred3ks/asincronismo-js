@@ -1,4 +1,24 @@
 {
+  "name": "asincronismo-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callback/challenge3.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfred3ks/asincronismo-js.git"
+  },
+  "keywords": [
+    "JavaScript"
+  ],
+  "author": "Alfredo Sánchez - @alfred3ks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alfred3ks/asincronismo-js/issues"
+  },
+  "homepage": "https://github.com/alfred3ks/asincronismo-js#readme",
   "dependencies": {
     "xmlhttprequest": "^1.8.0"
   }

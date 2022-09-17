@@ -87,7 +87,7 @@ https://fakeapi.platzi.com/
 npm init -y
 
 {
-  "name": "asincronismo",
+  "name": "asincronismo-js",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -141,5 +141,30 @@ Ahora ya en el archivo anterior de challenge1.js hemos preparado nuestra funcion
 Llego el momento de hacer fetch a la data.
 
 Como vemos este es un tipico ejemplo donde encadenamos peticiones y se genera un calback hell, el infierno de los callback.
+
+10- Callback hell: ---
+
+El infierno de los callback.
+
+Tenemos nuestro archivo:
+challenge3.js
+
+La aplicacion ya funciona bien, mi muestra por consola los valores.
+
+Los callback hell es la anidacion de llamadas dentro de otras llamadas y eso puede ser algo confuso y generar errores.
+
+Ahora los que haremos es un script para ejecutar el codigo desde la consola. Lo haremos en el package.json:
+
+node challenge3.js
+
+"scripts": {
+    "callback": "node src/callback/challenge3.js"
+  },
+
+Lo ejecutamos:
+
+npm run callback
+
+Lo que vemos que para este caso no es necesario hacer las tres peticiones por la caracteristica de la API, pero se puede dar el caso que si sea necesario, en este caso con solo la primera peticion ya tendriamos la respuesta.
 
 */
