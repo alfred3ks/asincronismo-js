@@ -115,5 +115,26 @@ Una función de callback es una función que se pasa a otra función como un arg
 Vamos a dentro de src crear una carpeta llamada callback
 src/callback/index.js
 
+8- XMLHTTPRequest:---
+
+XMLHttpRequest es un objeto nativo del navegador que permite hacer solicitudes HTTP desde JavaScript.
+
+Era el objeto que se usaba para hacer peticiones a APIs al principio en el lenguaje.
+
+Para poderlo trabajar fuera del navegador debemos usar una dependencia que encontraremos en npm:
+
+https://www.npmjs.com/package/xmlhttprequest
+https://developer.mozilla.org/es/docs/Web/HTTP/Status
+
+Ahora vamos a trabajar con este objeto para acceder a una API para traer sus valores.
+
+Usaremos los callback para esto.
+Vamos a usar la api:
+https://fakeapi.platzi.com/
+
+Vamos a ver un nuevo archivo dentro de src/callback/challenge1.js
+
+
+
 
 */
