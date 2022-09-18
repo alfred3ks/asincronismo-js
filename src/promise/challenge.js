@@ -34,3 +34,14 @@ fetchData(`${API}/products`)
   .then(products => console.log(products))
   .catch(error => console.log(error))
 
+// fetchData(`${API}/products`)
+//   .then((response) => {
+//     return response.json()
+//   })
+//   .then((products) => {
+//     console.log(products)
+//   })
+//   .catch((error) => {
+//     console.log(error)
+//   })
+
