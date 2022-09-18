@@ -179,4 +179,20 @@ Una promesa, algo que va a pasar. Puede ser ahora, mas tarde o nunca.
 
 Tenemos la carpeta src/promise/index.js donde veremos el codigo que vamos a implementar.
 
+13- Fetch:
+
+Ahora que ya hemos visto como funciona una promesa, las palabras reservadas que podemos utilizar y cual es la logica que debemos de seguir llego el momento de llamar a una API externa y mostrar la informacion segun de lo que necesitemos.
+
+Crearemos un nuevo archivo challenge.js dentro de la carpeta promise:
+
+promise/challenge.js
+
+En este archivo vemos como hacemos la peticion a la API y nos devuelve todos los productos. Un array [] con todos los productos.
+
+Ahora lo que haremos es hacer una peticion de un solo producto como lo vimos cuando lo hicimos con el objeto XMLHTTPResponse.
+Lo haremos en el archivo:
+
+promise/challenge1.js
+
+
 */

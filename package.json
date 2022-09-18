@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
-    "callback": "node src/callback/challenge3.js"
+    "callback": "node src/callback/challenge3.js",
+    "promise": "node src/promise/challenge1.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/alfred3ks/asincronismo-js#readme",
   "dependencies": {
+    "node-fetch": "^3.2.10",
     "xmlhttprequest": "^1.8.0"
   }
 }
