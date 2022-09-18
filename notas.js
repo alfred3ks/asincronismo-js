@@ -167,4 +167,16 @@ npm run callback
 
 Lo que vemos que para este caso no es necesario hacer las tres peticiones por la caracteristica de la API, pero se puede dar el caso que si sea necesario, en este caso con solo la primera peticion ya tendriamos la respuesta.
 
+
+11- Las promesas.
+
+Nos podemos dirigir a la documentacion oficial.
+https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Promise
+
+El objeto Promise representa la eventual finalización (o falla) de una operación asincrónica y su valor resultante.
+
+Una promesa, algo que va a pasar. Puede ser ahora, mas tarde o nunca.
+
+Tenemos la carpeta src/promise/index.js donde veremos el codigo que vamos a implementar.
+
 */
