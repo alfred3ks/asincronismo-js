@@ -194,5 +194,22 @@ Lo haremos en el archivo:
 
 promise/challenge1.js
 
+14- Fetch POST:
+
+Continuamos con el aprendizaje de las promesas llega la hora de hacer algo nuevo.
+
+Guardaremos informacion en la API.
+
+Dentro de nuestra API de consulta de Platzi si analizamos su documentacion vemos que a parte de obtener recursos de la API tambien podemos crearlos.
+
+https://fakeapi.platzi.com/doc/products
+
+Para esto tenemos que saber como funciona el metodo POST.
+
+Vamos a ver como lo hacemos en nuestro carpeta de src/promise y creamos un nuevo archivo:
+
+challenge-post.js
+
+Bastante interesante...
 
 */
