@@ -168,7 +168,7 @@ npm run callback
 Lo que vemos que para este caso no es necesario hacer las tres peticiones por la caracteristica de la API, pero se puede dar el caso que si sea necesario, en este caso con solo la primera peticion ya tendriamos la respuesta.
 
 
-11- Las promesas.
+11- Las promesas:---
 
 Nos podemos dirigir a la documentacion oficial.
 https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Promise
@@ -179,7 +179,7 @@ Una promesa, algo que va a pasar. Puede ser ahora, mas tarde o nunca.
 
 Tenemos la carpeta src/promise/index.js donde veremos el codigo que vamos a implementar.
 
-13- Fetch:
+13- Fetch:---
 
 Ahora que ya hemos visto como funciona una promesa, las palabras reservadas que podemos utilizar y cual es la logica que debemos de seguir llego el momento de llamar a una API externa y mostrar la informacion segun de lo que necesitemos.
 
@@ -194,7 +194,7 @@ Lo haremos en el archivo:
 
 promise/challenge1.js
 
-14- Fetch POST:
+14- Fetch POST:---
 
 Continuamos con el aprendizaje de las promesas llega la hora de hacer algo nuevo.
 
@@ -211,5 +211,24 @@ Vamos a ver como lo hacemos en nuestro carpeta de src/promise y creamos un nuevo
 challenge-post.js
 
 Bastante interesante...
+
+15- Funciones asincronas:---
+
+Vemos la documentacion oficial:
+https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/async_function
+
+Vamos a ver una nueva sintaxis para hacer peticiones a la API:
+
+Hablamos de async y await.
+
+Crearemos una nueva carpeta async y dentro nuestro archivo llamado index.js
+
+src/async/index.js
+
+La documentacion nos dice que la funcion asyn es una declaracion que define a una funcion asincrona la cual devuelve un objeto.
+
+Usaremos las palabras reservadas async para la funcion y await dentro de la funcion la cual nos va a permitir trabajar un formato asincrono de la llamada a la API.
+
+Vemos el codigo.
 
 */
