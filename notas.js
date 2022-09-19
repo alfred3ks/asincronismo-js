@@ -229,6 +229,15 @@ La documentacion nos dice que la funcion asyn es una declaracion que define a un
 
 Usaremos las palabras reservadas async para la funcion y await dentro de la funcion la cual nos va a permitir trabajar un formato asincrono de la llamada a la API.
 
-Vemos el codigo.
+Veamos el código.
+
+16- Try/catch:---
+
+Vamos a utilizar el llamado a la API de platzi pero usando async/await.
+
+Lo vemos en src/async/challenge.js
+
+Super limpio y mas sencillo...
+
 
 */
