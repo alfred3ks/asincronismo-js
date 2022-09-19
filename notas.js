@@ -239,5 +239,14 @@ Lo vemos en src/async/challenge.js
 
 Super limpio y mas sencillo...
 
+17- Como enfrentarse a los errores:
+
+Concejos de como hacerlo:
+
+- La del patito del hule.
+Platicar el problema. Puede ser cualquier figura, contarle lo que nos pasa, todo el problema. Ya veras como encontramos la solucion.
+
+Tambien debes descanzar. Eso es importante.
+
 
 */
