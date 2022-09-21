@@ -52,21 +52,27 @@ xhttp.onreadystatechange = function (event) {
 
 */
 
-const XMLHTTPRequest = require("xmlhttprequest").XMLHttpRequest;
+// Traemos el recurso instalado:
+const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 
+// Aqui tenemos la direccions del API:
 const API = 'https://api.escuelajs.co/api/v1';
 
-function fetchData(urlAPI, callback) {
-  let xhttp = new XMLHTTPRequest();
+// Funcion que ejecuta el llamado a la API:
+function fetchData(urlApi, callback) {
+  let xhttp = new XMLHttpRequest();
 
-  xhttp.open('GET', urlAPI, true);
+  // Abrimos una coneccion a la API:
+  xhttp.open('GET', urlApi, true);
 
+  // Escuchamos los estado de la solicitud para saber cuando esta disponible la informacion:
   xhttp.onreadystatechange = function (event) {
     if (xhttp.readyState === 4) {
       if (xhttp.status === 200) {
+        // Aqui pasamos el callback:
         callback(null, JSON.parse(xhttp.responseText));
       } else {
-        const error = new Error('Error' + urlAPI);
+        const error = new Error('Error' + urlApi);
         return callback(error, null);
       }
     }
